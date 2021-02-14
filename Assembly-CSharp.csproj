@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2B8ABD82-5A46-911F-EEDB-BDD2DFEA330F}</ProjectGuid>
+    <ProjectGuid>{FD586524-ED43-F575-32D2-EC8987801125}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,6 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CameraMove.cs" />
+    <Compile Include="Assets\Outline.cs" />
+    <Compile Include="Assets\Simple Side-Menu\Scripts\Runtime\SimpleSideMenu.cs" />
+    <None Include="Assets\outline.shader" />
+    <None Include="Assets\Simple Side-Menu\Shaders\Blur.shader" />
     <Reference Include="UnityEngine">
       <HintPath>H:/Programs/Unity/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -588,31 +592,31 @@
       <HintPath>H:/Programs/Unity/2019.4.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>H:/Programs/Unity Projects/ModelingCraft/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>F:/git/ModelingCraft/ModelingUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
