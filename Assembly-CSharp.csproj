@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameraMove.cs" />
     <Compile Include="Assets\Outline.cs" />
     <Compile Include="Assets\Simple Side-Menu\Scripts\Runtime\SimpleSideMenu.cs" />
+    <Compile Include="Assets\axis\axisMove.cs" />
     <None Include="Assets\outline.shader" />
     <None Include="Assets\Simple Side-Menu\Shaders\Blur.shader" />
     <Reference Include="UnityEngine">
