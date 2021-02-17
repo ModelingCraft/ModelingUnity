@@ -121,18 +121,18 @@ public class CustomUVS : MonoBehaviour
         else if (faceType == CubeFaceType.Left)
         {
             Vector2[] newUVS = GetUVS(leftPoint.x, leftPoint.y);
-            uvs[16] = newUVS[1];
-            uvs[18] = newUVS[0];
-            uvs[19] = newUVS[2];
-            uvs[17] = newUVS[3];
+            uvs[16] = newUVS[0];
+            uvs[18] = newUVS[3];
+            uvs[19] = newUVS[1];
+            uvs[17] = newUVS[2];
         }
         else if (faceType == CubeFaceType.Right)
         {
             Vector2[] newUVS = GetUVS(rightPoint.x, rightPoint.y);
-            uvs[20] = newUVS[1];
-            uvs[22] = newUVS[0];
-            uvs[23] = newUVS[2];
-            uvs[21] = newUVS[3];
+            uvs[20] = newUVS[0];
+            uvs[22] = newUVS[3];
+            uvs[23] = newUVS[1];
+            uvs[21] = newUVS[2];
         }
     }
 }
