@@ -77,10 +77,10 @@ public class CustomUVS : MonoBehaviour
     Vector2[] GetUVS(float originX, float originY)
     {
         Vector2[] uvs = new Vector2[4];
-        uvs[0] = new Vector2(originX / 3.0f, originY / 3.0f);
-        uvs[1] = new Vector2((originX + 1) / 3.0f, originY / 3.0f);
-        uvs[2] = new Vector2(originX / 3.0f, (originY + 1) / 3.0f);
-        uvs[3] = new Vector2((originX + 1) / 3.0f, (originY + 1) / 3.0f);
+        uvs[0] = new Vector2(originX / 2.0f, originY / 2.0f);
+        uvs[1] = new Vector2((originX + 1) / 2.0f, originY / 2.0f);
+        uvs[2] = new Vector2(originX / 2.0f, (originY + 1) / 2.0f);
+        uvs[3] = new Vector2((originX + 1) / 2.0f, (originY + 1) / 2.0f);
         return uvs;
     }
 
